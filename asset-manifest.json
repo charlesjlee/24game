@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/wordhuntsolver/static/css/main.f8773b72.chunk.css",
-    "main.js": "/wordhuntsolver/static/js/main.f59e4991.chunk.js",
-    "main.js.map": "/wordhuntsolver/static/js/main.f59e4991.chunk.js.map",
+    "main.css": "/wordhuntsolver/static/css/main.13b6edc3.chunk.css",
+    "main.js": "/wordhuntsolver/static/js/main.4b67514b.chunk.js",
+    "main.js.map": "/wordhuntsolver/static/js/main.4b67514b.chunk.js.map",
     "runtime-main.js": "/wordhuntsolver/static/js/runtime-main.2fed0aea.js",
     "runtime-main.js.map": "/wordhuntsolver/static/js/runtime-main.2fed0aea.js.map",
     "static/js/2.73e569e3.chunk.js": "/wordhuntsolver/static/js/2.73e569e3.chunk.js",
     "static/js/2.73e569e3.chunk.js.map": "/wordhuntsolver/static/js/2.73e569e3.chunk.js.map",
     "index.html": "/wordhuntsolver/index.html",
-    "static/css/main.f8773b72.chunk.css.map": "/wordhuntsolver/static/css/main.f8773b72.chunk.css.map",
+    "static/css/main.13b6edc3.chunk.css.map": "/wordhuntsolver/static/css/main.13b6edc3.chunk.css.map",
     "static/js/2.73e569e3.chunk.js.LICENSE.txt": "/wordhuntsolver/static/js/2.73e569e3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2fed0aea.js",
     "static/js/2.73e569e3.chunk.js",
-    "static/css/main.f8773b72.chunk.css",
-    "static/js/main.f59e4991.chunk.js"
+    "static/css/main.13b6edc3.chunk.css",
+    "static/js/main.4b67514b.chunk.js"
   ]
 }

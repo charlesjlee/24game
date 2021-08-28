@@ -2,6 +2,7 @@
   "name": "24-game-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://charlesjlee.github.io/24game",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

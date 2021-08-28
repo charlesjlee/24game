@@ -4,7 +4,7 @@ import SizeChoice from './sizeChoice'
 const SizeScreen = props => {
     return (
         <div className="sizeScreen">
-            <p className="sizeHeader">SELECT A GRID SIZE (test)</p>
+            <p className="sizeHeader">SELECT A GRID SIZE</p>
             <div className="sizeChoices">
                 <SizeChoice size={4} select={props.selectSize}/>
                 <SizeChoice size={5} select={props.selectSize}/>

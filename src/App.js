@@ -9,6 +9,10 @@ function App() {
 	const [board, setBoard] = useState(null);
 	const [results, setResults] = useState([]);
 
+	const goHome = () => {
+		setScreen(1);
+	}
+
 	const findWords = () => {
 		setScreen(2);
 		wordHunt(board).then(result => {
@@ -20,7 +24,7 @@ function App() {
 	let screenToShow = null;
 	if (screen === 1) screenToShow = <InputScreen size={4} setBoard={setBoard} findWords={findWords}/>
 	if (screen === 2) screenToShow = <LoadingScreen/>
-	if (screen === 3) screenToShow = <ResultsScreen board={board} results={results}/>
+	if (screen === 3) screenToShow = <ResultsScreen board={board} results={results} goHome={goHome}/>
 
 	return (
 		<div className="App">

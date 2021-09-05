@@ -4,7 +4,6 @@ import '../css/resultsScreen.css';
 import Word from "./word";
 
 const ResultsScreen = props => {
-
     const [path, setPath] = useState([]);
     const [atTop, setAtTop] = useState(true);
     const wordsDiv = useRef(null);

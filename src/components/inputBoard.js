@@ -3,7 +3,6 @@ import InputSquare from './inputSquare';
 import '../css/inputBoard.css';
 
 const InputBoard = props => {
-
     let array = new Array(props.size);
     for (let i = 0; i < array.length; i++) {
         array[i] = new Array(props.size);
@@ -16,7 +15,6 @@ const InputBoard = props => {
     const [focusedSquare, setFocusedSquare] = useState({row: 0, col: 0});
 
     const setLetter = (row, col, letter) => {
-
         let copy = [...letters];
         copy[row][col] = letter ? letter.toUpperCase() : null;
         setLetters(copy);

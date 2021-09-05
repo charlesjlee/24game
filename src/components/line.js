@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'react';
 import '../css/line.css'
 
 const Line = props => {
-
     const line = useRef(null);
     useEffect(() => {
 

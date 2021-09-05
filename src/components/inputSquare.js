@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from 'react';
 import '../css/inputSquare.css'
 
 const InputSquare = props => {
-
     const [fontSize, setFontSize] = useState("0px");
 
     const square = useRef(null);

@@ -6,7 +6,6 @@ import wordHunt from './functions/wordHunt';
 
 function App() {
 	const [screen, setScreen] = useState(1);
-	const [size, setSize] = useState(4);
 	const [board, setBoard] = useState(null);
 	const [results, setResults] = useState([]);
 
@@ -19,7 +18,7 @@ function App() {
 	}
 
 	let screenToShow = null;
-	if (screen === 1) screenToShow = <InputScreen size={size} setBoard={setBoard} findWords={findWords}	/>
+	if (screen === 1) screenToShow = <InputScreen size={4} setBoard={setBoard} findWords={findWords}/>
 	if (screen === 2) screenToShow = <LoadingScreen/>
 	if (screen === 3) screenToShow = <ResultsScreen board={board} results={results}/>
 

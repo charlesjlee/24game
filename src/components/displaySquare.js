@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import '../css/displaySquare.css';
 
 const DisplaySquare = props => {
-
     const [fontSize, setFontSize] = useState("0px");
 
     const square = useRef(null);

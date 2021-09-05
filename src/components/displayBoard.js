@@ -4,7 +4,6 @@ import DisplaySquare from './displaySquare';
 import Line from './line';
 
 const DisplayBoard = props => {
-
     // store the position of each square, start with them all init to 0, 0
     let array = new Array(props.letters.length);
     for (let i = 0; i < array.length; i++) {

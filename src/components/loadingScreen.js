@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import '../css/loadingScreen.css'
 
 const LoadingScreen = () => {
-
     const [numDots, setNumDots] = useState(0);
 
     useEffect(() => {

@@ -3,6 +3,7 @@ import InputScreen from './components/inputScreen';
 import LoadingScreen from './components/loadingScreen';
 import ResultsScreen from './components/resultsScreen';
 import wordHunt from './functions/wordHunt';
+import {solve, render} from './functions/24';
 
 function App() {
 	const [screen, setScreen] = useState(1);

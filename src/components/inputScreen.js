@@ -12,7 +12,6 @@ const InputScreen = props => {
 
     return (
         <div className="inputScreen">
-            <button className="backButton" onClick={props.goHome}></button>
             <InputBoard size={props.size} setBoard={props.setBoard} setBoardFilled={setBoardFilled} submit={submit}/>
             {boardFilled ? 
                 <button className="findWords" onClick={props.findWords}>FIND WORDS</button>

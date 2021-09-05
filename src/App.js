@@ -22,7 +22,7 @@ function App() {
 	}
 
 	let screenToShow = null;
-	if (screen === 1) screenToShow = <InputScreen size={4} setBoard={setBoard} findWords={findWords}/>
+	if (screen === 1) screenToShow = <InputScreen size={2} setBoard={setBoard} findWords={findWords}/>
 	if (screen === 2) screenToShow = <LoadingScreen/>
 	if (screen === 3) screenToShow = <ResultsScreen board={board} results={results} goHome={goHome}/>
 

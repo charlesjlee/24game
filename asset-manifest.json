@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/24game/static/css/main.bc244d22.chunk.css",
-    "main.js": "/24game/static/js/main.1684bbd3.chunk.js",
-    "main.js.map": "/24game/static/js/main.1684bbd3.chunk.js.map",
+    "main.js": "/24game/static/js/main.8b0825d7.chunk.js",
+    "main.js.map": "/24game/static/js/main.8b0825d7.chunk.js.map",
     "runtime-main.js": "/24game/static/js/runtime-main.3c18e14a.js",
     "runtime-main.js.map": "/24game/static/js/runtime-main.3c18e14a.js.map",
-    "static/js/2.f969c90b.chunk.js": "/24game/static/js/2.f969c90b.chunk.js",
-    "static/js/2.f969c90b.chunk.js.map": "/24game/static/js/2.f969c90b.chunk.js.map",
+    "static/js/2.03a418a2.chunk.js": "/24game/static/js/2.03a418a2.chunk.js",
+    "static/js/2.03a418a2.chunk.js.map": "/24game/static/js/2.03a418a2.chunk.js.map",
     "index.html": "/24game/index.html",
     "static/css/main.bc244d22.chunk.css.map": "/24game/static/css/main.bc244d22.chunk.css.map",
-    "static/js/2.f969c90b.chunk.js.LICENSE.txt": "/24game/static/js/2.f969c90b.chunk.js.LICENSE.txt"
+    "static/js/2.03a418a2.chunk.js.LICENSE.txt": "/24game/static/js/2.03a418a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3c18e14a.js",
-    "static/js/2.f969c90b.chunk.js",
+    "static/js/2.03a418a2.chunk.js",
     "static/css/main.bc244d22.chunk.css",
-    "static/js/main.1684bbd3.chunk.js"
+    "static/js/main.8b0825d7.chunk.js"
   ]
 }

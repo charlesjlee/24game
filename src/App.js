@@ -2,8 +2,7 @@ import { useState } from 'react';
 import InputScreen from './components/inputScreen';
 import LoadingScreen from './components/loadingScreen';
 import ResultsScreen from './components/resultsScreen';
-import wordHunt from './functions/wordHunt';
-import {solve, render, test} from './functions/24';
+import {solve, render} from './functions/24';
 
 function App() {
 	const [screen, setScreen] = useState(1);
@@ -17,16 +16,14 @@ function App() {
 	const findWords = () => {
 		setScreen(2);
 		var flattened = [].concat(...board)
-		console.log("~~ flattened")
-		console.log(flattened)
-		solve(flattened)
+		var answer = solve(flattened)
 
-		wordHunt(board).then(result => {
-			console.log("~~ board")
-			console.log(board)
-			setResults(result);
-			setScreen(3);
-		});
+		// TODO: delete these test logs
+		console.log("~~ answer")
+		console.log(answer)
+
+		setResults(answer);
+		setScreen(3);
 	}
 
 	let screenToShow = null;

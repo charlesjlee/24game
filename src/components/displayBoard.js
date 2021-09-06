@@ -16,12 +16,13 @@ const DisplayBoard = props => {
 
     // create an array of lines out of our path
     let lines = [];
-    for (let i = 1; i < props.path.length; i++) {
-        lines.push({
-            start: props.path[i - 1],
-            end: props.path[i] 
-        });
-    }
+    // TODO: re-enable this
+    // for (let i = 1; i < props.path.length; i++) {
+    //     lines.push({
+    //         start: props.path[i - 1],
+    //         end: props.path[i]
+    //     });
+    // }
 
     // function to set the position of a square
     const setSquarePosition = (pos, x, y) => {

@@ -17,18 +17,23 @@ const ResultsScreen = props => {
         setAtTop(!e.target.scrollTop && !e.target.scrollLeft)
     }
 
+    // TODO: delete test logs
+    console.log("~~ props.results")
+    console.log(props.results)
+
     return (
         <div className="resultsScreen">
             <button className="backButton" onClick={props.goHome}></button>
             <div className="boardDiv">
-                <p className="wordCount">{props.results.length} WORD{props.results.length !== 1 ? "S" : ""}</p>
+                <p className="wordCount">{props.results.length} SOLUTION{props.results.length !== 1 ? "S" : ""}</p>
                 <DisplayBoard letters={props.board} path={path}/>
             </div>
             {props.results.length > 0 && <div className="wordsDivOuter">
                 <button className="toTopButton" disabled={atTop} onClick={scrollToTop}></button>
                 <div className="wordsDiv" ref={wordsDiv} onScroll={handleScroll}>
-                    {props.results.map(result =>
-                        <Word key={result.word} word={result.word} path={result.path} setPath={setPath}/>
+                    {props.results.map((result,index) =>
+                        // TODO: fix index, maybe by concatenating?
+                        <Word key={index} word={result} path={result.path} setPath={setPath}/>
                     )}
                 </div>
             </div>}

@@ -54,13 +54,13 @@ const InputBoard = props => {
         setFocusedSquare({row: row, col: col});
     }
 
-    const numbers = [...Array(props.size).keys()];
+    const indices = [...Array(props.size).keys()];
 
     return (
         <div className="inputBoard">
-            {numbers.map((row) =>
+            {indices.map((row) =>
                 <div key={row} className="inputRow">
-                    {numbers.map((col) =>
+                    {indices.map((col) =>
                         <div key={col} className="boardItem">
                             <InputSquare
                                 letter={letters[row][col]}

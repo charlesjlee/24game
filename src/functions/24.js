@@ -311,4 +311,10 @@ function render(solution) {
   return renderOp(depared);
 }
 
-export {solve, render};
+function test(ns){
+  console.log("~~ EXP_ABCD")
+  console.log(EXP_ABCD)
+}
+
+
+export {solve, render, test};

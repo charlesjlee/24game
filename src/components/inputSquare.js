@@ -20,9 +20,11 @@ const InputSquare = props => {
         return () => window.removeEventListener("resize", calcFontSize)
     });
 
+    // TODO: need to allow 10
+    // TODO: need to allow A,J,Q,K and transform into numbers (allow both upper & lower)
     const handleKeyDown = e => {
         e.preventDefault();
-        if (e.keyCode >= 65 && e.keyCode <= 90) { // letters
+        if (e.keyCode >= 48 && e.keyCode <= 57) { // numbers 0-9
             props.setLetter(props.row, props.col, e.key);
             props.setFocus(props.row, props.col + 1);
         }

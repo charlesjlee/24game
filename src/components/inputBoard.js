@@ -16,7 +16,8 @@ const InputBoard = props => {
 
     const setLetter = (row, col, letter) => {
         let copy = [...letters];
-        copy[row][col] = letter ? letter.toUpperCase() : null;
+        copy[row][col] = letter
+        // copy[row][col] = letter ? letter.toUpperCase() : null;
         setLetters(copy);
 
         let boardFilled = true;

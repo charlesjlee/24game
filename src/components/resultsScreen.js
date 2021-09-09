@@ -17,10 +17,6 @@ const ResultsScreen = props => {
         setAtTop(!e.target.scrollTop && !e.target.scrollLeft)
     }
 
-    // TODO: delete test logs
-    console.log("~~ props.results")
-    console.log(props.results)
-
     return (
         <div className="resultsScreen">
             <button className="backButton" onClick={props.goHome}></button>

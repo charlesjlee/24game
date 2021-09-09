@@ -18,10 +18,6 @@ function App() {
 		var flattened = [].concat(...board)
 		var answer = solve(flattened)
 
-		// TODO: delete these test logs
-		console.log("~~ answer")
-		console.log(answer)
-
 		setResults(answer);
 		setScreen(3);
 	}

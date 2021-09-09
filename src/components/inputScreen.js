@@ -14,8 +14,8 @@ const InputScreen = props => {
             <InputBoard size={props.size} setBoard={props.setBoard} setBoardFilled={setBoardFilled} submit={submit}/>
             {
                 boardFilled ? 
-                <button className="findWords" onClick={props.findWords}>FIND WORDS</button>:
-                <p className="promptText">FILL IN EACH SQUARE WITH A LETTER TO CONTINUE</p>
+                <button className="findWords" onClick={props.findWords}>FIND SOLUTIONS</button>:
+                <p className="promptText">FILL IN EACH SQUARE WITH A NUMBER</p>
             }
         </div>
     );

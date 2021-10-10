@@ -1,6 +1,5 @@
 # Word Hunt Solver
-
-wordhuntsolver.com is a web app built with ReactJS. It will find all possible words that can be drawn in a grid of letters. The project was inspired by the game "word hunt" on [GamePigeon](http://gamepigeonapp.com/).
+This repo is a ReactJS web app to solve [24 game](https://en.wikipedia.org/wiki/24_Game). The front-end is a simplified version of [mtomko87's WordHuntSolver repo](https://github.com/mtomko87/wordhuntsolver) and solution enumeration is powered by [auntyellow's repo](https://github.com/auntyellow/24).
 
 # To run locally
     npm install
@@ -8,7 +7,15 @@ wordhuntsolver.com is a web app built with ReactJS. It will find all possible wo
     npm stop # to kill node.exe if you closed the window
 
 # To deploy to gh-pages locally
-there is already a gh-pages action
-but can do manually:
+There is already a gh-pages action but can do manually:
+
     npm deploy
     npm run deploy
+
+# Other notes
+I also considered this solver
+https://github.com/LouYu2015/24_game_solver
+- supports complex operators
+- doesn't filter out "duplicate" solutions, e.g.
+    24 = 12+6+2+4
+    24 = 12+2+4+6

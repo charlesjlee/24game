@@ -17,5 +17,7 @@ I also considered this solver
 https://github.com/LouYu2015/24_game_solver
 - supports complex operators
 - doesn't filter out "duplicate" solutions, e.g.
-    24 = 12+6+2+4
-    24 = 12+2+4+6
+```
+24 = 12+6+2+4
+24 = 12+2+4+6
+```
